@@ -1,0 +1,33 @@
+#logo {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header #logo {
+  flex: 1 1;
+  max-width: 200px;
+}
+
+header #searchfield {
+  flex: 1 1;
+  display: inline-block;
+  margin: 10px 20px;
+  max-width: 600px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.recipe em {
+  font-weight: bold;
+  font-style: normal;
+}
